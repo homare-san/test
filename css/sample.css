@@ -1,8 +1,65 @@
 html {
   font-size: 14px;
   line-height: 2;
+  background: #ccc;
+  color: #333;
 }
 body {
   margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+#wrapper_in {
+  width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+header {
   padding: 1em;
+}
+nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+nav ul {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #ddd;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #bbb;
+}
+nav li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li:first-child {
+  margin-left: 3em;
+  border-left: 1px solid #ccc;
+}
+nav li a {
+  display: inline-block;
+  margin: 0;
+  padding: 0.5em 2em;
+  background: #ddd;
+  border-right: 1px solid #ccc;
+  text-decoration: none;
+}
+nav li a:hover {
+  background: #eee;
 }
